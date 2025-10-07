@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1 - Inicio</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        .botones button { padding: 10px 20px; margin: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a la Página 1</h1>
+    <p>Esta es la página principal.</p>
+<video 
+    controls 
+    width="60%" 
+    poster="miniatura_del_video.jpg" 
+    autoplay 
+    muted 
+    loop>
+    
+    <source src="ingeniero automotriz.mp4" type="video/mp4">
+    <source src="ingeniero automotriz" type="video/ogg">
+    Lo siento, tu navegador no puede reproducir este video.
+</video>
+
+    <div class="botones">
+        <a href="pagina2.html"><button>Ir a Página 2</button></a>
+        <a href="pagina3.html"><button>Ir a Página 3</button></a>
+    </div>
+
+    <button onclick="window.history.back()">Volver (Página anterior)</button>
+
+    <p>El botón "Volver" te llevará a la última página que visitaste.</p>
+</body>
+</html>
